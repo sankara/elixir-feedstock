@@ -1,4 +1,4 @@
-{% set version = "1.10.0" %}
+{% set version = "1.10.1" %}
 
 package:
   name: elixir
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/elixir-lang/elixir/archive/v{{ version }}.tar.gz
-  sha256: 6f0d35acfcbede5ef7dced3e37f016fd122c2779000ca9dcaf92975b220737b7
+  sha256: bf10dc5cb084382384d69cc26b4f670a3eb0a97a6491182f4dcf540457f06c07
 
 build:
   number: 0
