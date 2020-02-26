@@ -1,4 +1,4 @@
-{% set version = "1.10.1" %}
+{% set version = "1.10.2" %}
 
 package:
   name: elixir
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/elixir-lang/elixir/archive/v{{ version }}.tar.gz
-  sha256: bf10dc5cb084382384d69cc26b4f670a3eb0a97a6491182f4dcf540457f06c07
+  sha256: 5adffcf4389aa82fcfbc84324ebbfa095fc657a0e15b2b055fc05184f96b2d50
 
 build:
   number: 0
@@ -29,11 +29,11 @@ test:
     - mix --version
 
 about:
-  home:  https://elixir-lang.org/
+  home: https://elixir-lang.org/
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Elixir is a dynamic, functional language designed for building scalable and maintainable applications'
+  summary: Elixir is a dynamic, functional language designed for building scalable and maintainable applications
   dev_url: https://github.com/elixir-lang/elixir
   doc_url: https://elixir-lang.org/docs.html
   doc_source_url: https://github.com/elixir-lang/elixir/blob/master/lib/elixir/docs.exs
