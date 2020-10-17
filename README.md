@@ -5,11 +5,13 @@ Home: https://elixir-lang.org/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elixir-feedstock/blob/master/LICENSE.txt)
 
 Summary: Elixir is a dynamic, functional language designed for building scalable and maintainable applications
 
+Development: https://github.com/elixir-lang/elixir
 
+Documentation: https://elixir-lang.org/docs.html
 
 Current build status
 ====================
