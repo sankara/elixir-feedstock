@@ -18,9 +18,9 @@ requirements:
     - git
     - make
   host:
-    - erlang >=20.0
+    - erlang >=21.0
   run:
-    - erlang >=20.0
+    - erlang >=21.0
 
 test:
   commands:
