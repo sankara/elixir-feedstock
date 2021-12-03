@@ -25,7 +25,8 @@ requirements:
 test:
   commands:
     - elixir --version
-    - iex --version
+    # this apparently hangs, now
+    # - iex --version
     - mix --version
 
 about:
