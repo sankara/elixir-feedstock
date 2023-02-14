@@ -9,14 +9,15 @@ source:
   sha256: bd464145257f36bd64f7ba8bed93b6499c50571b415c491b20267d27d7035707
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script: make prefix=${PREFIX} install
 
 requirements:
   build:
-    - git
     - make
+  host:
+    - git
   host:
     - erlang >=21.0
   run:
